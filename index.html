@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ÉLÉA BEAUTY — Beauté & Lifestyle</title>
+    <meta name="description" content="Éléa Beauty — huiles, soins, maquillage, cheveux, nails, accessoires et lunettes.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= CURSOR ================= -->
+
+<div class="cursor-dot"></div>
+<div class="cursor-ring"></div>
+
+
+<!-- ================= LOADER ================= -->
+
+<div class="loader" id="loader">
+    <div class="loader-logo">ÉLÉA</div>
+    <div class="loader-line">
+        <span></span>
+    </div>
+</div>
+
+
+<!-- ================= ANNOUNCEMENT ================= -->
+
+<div class="announcement">
+    <div class="announcement-track">
+        <span>✨ LIVRAISON PARTOUT AU MAROC</span>
+        <span>•</span>
+        <span>💗 NOUVELLE COLLECTION</span>
+        <span>•</span>
+        <span>🎁 -20% SUR UNE SÉLECTION</span>
+        <span>•</span>
+        <span>📲 COMMANDE VIA WHATSAPP</span>
+        <span>•</span>
+
+        <span>✨ LIVRAISON PARTOUT AU MAROC</span>
+        <span>•</span>
+        <span>💗 NOUVELLE COLLECTION</span>
+        <span>•</span>
+        <span>🎁 -20% SUR UNE SÉLECTION</span>
+        <span>•</span>
+        <span>📲 COMMANDE VIA WHATSAPP</span>
+    </div>
+</div>
+
+
+<!-- ================= HEADER ================= -->
+
+<header class="header" id="header">
+
+    <div class="header-inner">
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <span></span>
+            <span></span>
+        </button>
+
+        <a href="#" class="logo">
+            <span class="logo-main">ÉLÉA</span>
+            <span class="logo-sub">BEAUTY & LIFESTYLE</span>
+        </a>
+
+        <nav class="nav" id="nav">
+
+            <a href="#home">Accueil</a>
+            <a href="#categories">Catégories</a>
+            <a href="#products">Boutique</a>
+            <a href="#about">À propos</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+        <div class="header-actions">
+
+            <button class="icon-btn search-btn" id="searchBtn" aria-label="Recherche">
+                <svg viewBox="0 0 24 24">
+                    <circle cx="11" cy="11" r="7"></circle>
+                    <path d="M20 20l-4-4"></path>
+                </svg>
+            </button>
+
+            <button class="icon-btn favorite-header" id="favoriteBtn" aria-label="Favoris">
+                <svg viewBox="0 0 24 24">
+                    <path d="M20.8 8.9c0 5.4-8.8 10.1-8.8 10.1S3.2 14.3 3.2 8.9A5 5 0 0 1 12 5.6a5 5 0 0 1 8.8 3.3Z"></path>
+                </svg>
+                <span class="count-badge" id="favoriteCount">0</span>
+            </button>
+
+            <button class="icon-btn cart-btn" id="cartBtn" aria-label="Panier">
+                <svg viewBox="0 0 24 24">
+                    <path d="M3 4h2l2.2 11.2a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 1.9-1.5L21 8H6"></path>
+                    <circle cx="9" cy="20" r="1"></circle>
+                    <circle cx="18" cy="20" r="1"></circle>
+                </svg>
+                <span class="count-badge" id="cartCount">0</span>
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- ================= SEARCH OVERLAY ================= -->
+
+<div class="search-overlay" id="searchOverlay">
+
+    <div class="search-box">
+
+        <button class="close-search" id="closeSearch">×</button>
+
+        <span>RECHERCHER</span>
+
+        <div class="search-input-wrapper">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Huile, mascara, lunettes..."
+                autocomplete="off"
+            >
+
+            <svg viewBox="0 0 24 24">
+                <circle cx="11" cy="11" r="7"></circle>
+                <path d="M20 20l-4-4"></path>
+            </svg>
+
+        </div>
+
+        <div class="search-results" id="searchResults"></div>
+
+    </div>
+
+</div>
+
+
+<!-- ================= HERO ================= -->
+
+<main>
+
+<section class="hero" id="home">
+
+    <div class="hero-shape shape-one"></div>
+    <div class="hero-shape shape-two"></div>
+
+    <div class="hero-inner">
+
+        <div class="hero-content reveal">
+
+            <div class="eyebrow">
+                <span></span>
+                BEAUTÉ • SOIN • STYLE
+            </div>
+
+            <h1>
+                Révèle
+                <em>ta beauté.</em>
+            </h1>
+
+            <p>
+                Des essentiels soigneusement sélectionnés pour
+                prendre soin de toi, révéler ton style et ajouter
+                une touche de magie à chaque journée.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#products" class="btn btn-primary">
+                    Découvrir la boutique
+                    <span>→</span>
+                </a>
+
+                <a href="#categories" class="btn btn-outline">
+                    Explorer
+                </a>
+
+            </div>
+
+            <div class="hero-mini-stats">
+
+                <div>
+                    <strong>+500</strong>
+                    <span>clientes</span>
+                </div>
+
+                <div>
+                    <strong>4.9/5</strong>
+                    <span>satisfaction</span>
+                </div>
+
+                <div>
+                    <strong>24/7</strong>
+                    <span>WhatsApp</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-visual reveal">
+
+            <div class="hero-image-wrap">
+
+                <div class="hero-circle-text">
+                    <svg viewBox="0 0 200 200">
+                        <defs>
+                            <path
+                                id="circlePath"
+                                d="M100,100 m-72,0 a72,72 0 1,1 144,0 a72,72 0 1,1 -144,0"
+                            />
+                        </defs>
+
+                        <text>
+                            <textPath href="#circlePath">
+                                ÉLÉA BEAUTY • LOVE YOURSELF •
+                            </textPath>
+                        </text>
+                    </svg>
+
+                    <div class="circle-center">✦</div>
+                </div>
+
+                <img
+                    src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1000&q=85"
+                    alt="Beauty products"
+                >
+
+                <div class="floating-card floating-card-one">
+
+                    <div class="floating-icon">♡</div>
+
+                    <div>
+                        <strong>Self Love</strong>
+                        <small>Commence ici</small>
+                    </div>
+
+                </div>
+
+                <div class="floating-card floating-card-two">
+
+                    <span class="mini-star">✦</span>
+
+                    <div>
+                        <strong>NEW</strong>
+                        <small>Collection</small>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="hero-bottom">
+        <span>SCROLL TO DISCOVER</span>
+        <div class="scroll-line"></div>
+    </div>
+
+</section>
+
+
+<!-- ================= MARQUEE ================= -->
+
+<section class="marquee-section">
+
+    <div class="marquee-track">
+
+        <span>SKINCARE</span>
+        <i>✦</i>
+        <span>MAKEUP</span>
+        <i>✦</i>
+        <span>HAIRCARE</span>
+        <i>✦</i>
+        <span>NAILS</span>
+        <i>✦</i>
+        <span>ACCESSORIES</span>
+        <i>✦</i>
+        <span>LUNETTES</span>
+        <i>✦</i>
+
+        <span>SKINCARE</span>
+        <i>✦</i>
+        <span>MAKEUP</span>
+        <i>✦</i>
+        <span>HAIRCARE</span>
+        <i>✦</i>
+        <span>NAILS</span>
+        <i>✦</i>
+        <span>ACCESSORIES</span>
+        <i>✦</i>
+        <span>LUNETTES</span>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CATEGORIES ================= -->
+
+<section class="section categories-section" id="categories">
+
+    <div class="section-heading reveal">
+
+        <div>
+            <span class="section-kicker">SHOP BY CATEGORY</span>
+
+            <h2>
+                Tout pour ton
+                <em>rituel beauté.</em>
+            </h2>
+        </div>
+
+        <p>
+            Explore nos univers et découvre les produits
+            qui correspondent à ton style.
+        </p>
+
+    </div>
+
+
+    <div class="categories-grid">
+
+        <a href="#products" class="category-card category-large reveal" data-category="Skincare">
+
+            <img src="https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&fit=crop&w=1000&q=85" alt="Skincare">
+
+            <div class="category-overlay"></div>
+
+            <div class="category-content">
+                <span>01</span>
+                <h3>Skincare</h3>
+                <p>Huiles & soins</p>
+                <b>Découvrir →</b>
+            </div>
+
+        </a>
+
+
+        <a href="#products" class="category-card reveal" data-category="Makeup">
+
+            <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=800&q=85" alt="Makeup">
+
+            <div class="category-overlay"></div>
+
+            <div class="category-content">
+                <span>02</span>
+                <h3>Makeup</h3>
+                <p>Pour ton glow</p>
+                <b>Découvrir →</b>
+            </div>
+
+        </a>
+
+
+        <a href="#products" class="category-card reveal" data-category="Cheveux">
+
+            <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=85" alt="Haircare">
+
+            <div class="category-overlay"></div>
+
+            <div class="category-content">
+                <span>03</span>
+                <h3>Cheveux</h3>
+                <p>Haircare</p>
+                <b>Découvrir →</b>
+            </div>
+
+        </a>
+
+
+        <a href="#products" class="category-card reveal" data-category="Nails">
+
+            <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=800&q=85" alt="Nails">
+
+            <div class="category-overlay"></div>
+
+            <div class="category-content">
+                <span>04</span>
+                <h3>Nails</h3>
+                <p>Manucure</p>
+                <b>Découvrir →</b>
+            </div>
+
+        </a>
+
+
+        <a href="#products" class="category-card reveal" data-category="Accessoires">
+
+            <img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=800&q=85" alt="Accessories">
+
+            <div class="category-overlay"></div>
+
+            <div class="category-content">
+                <span>05</span>
+                <h3>Accessoires</h3>
+                <p>Petits détails</p>
+                <b>Découvrir →</b>
+            </div>
+
+        </a>
+
+
+        <a href="#products" class="category-card category-wide reveal" data-category="Lunettes">
+
+            <img src="https://images.unsplash.com/photo-1577803645773-f96470509666?auto=format&fit=crop&w=1000&q=85" alt="Sunglasses">
+
+            <div class="category-overlay"></div>
+
+            <div class="category-content">
+                <span>06</span>
+                <h3>Lunettes</h3>
+                <p>Ton style, ton regard</p>
+                <b>Découvrir →</b>
+            </div>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FEATURE ================= -->
+
+<section class="feature-section">
+
+    <div class="feature-inner reveal">
+
+        <div class="feature-image">
+
+            <img
+                src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=1200&q=85"
+                alt="Beauty routine"
+            >
+
+        </div>
+
+        <div class="feature-content">
+
+            <span class="section-kicker">TON MOMENT À TOI</span>
+
+            <h2>
+                Prends soin de toi.
+                <em>Chaque jour.</em>
+            </h2>
+
+            <p>
+                Parce que la beauté ne se résume pas à l'apparence.
+                Elle commence par les petits moments que tu t'accordes.
+            </p>
+
+            <div class="feature-list">
+
+                <div>
+                    <span>01</span>
+                    <p>Produits sélectionnés avec soin</p>
+                </div>
+
+                <div>
+                    <span>02</span>
+                    <p>Commande simple via WhatsApp</p>
+                </div>
+
+                <div>
+                    <span>03</span>
+                    <p>Livraison partout au Maroc</p>
+                </div>
+
+            </div>
+
+            <a href="#products" class="text-link">
+                Voir la collection <span>↗</span>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PRODUCTS ================= -->
+
+<section class="section products-section" id="products">
+
+    <div class="products-heading reveal">
+
+        <div>
+            <span class="section-kicker">OUR FAVORITES</span>
+
+            <h2>
+                Les produits
+                <em>du moment.</em>
+            </h2>
+        </div>
+
+        <p id="productResult">
+            Découvrez nos favoris.
+        </p>
+
+    </div>
+
+
+    <div class="filter-bar reveal">
+
+        <div class="filter-buttons">
+
+            <button class="filter active" data-filter="all">
+                Tout
+            </button>
+
+            <button class="filter" data-filter="Skincare">
+                Skincare
+            </button>
+
+            <button class="filter" data-filter="Makeup">
+                Makeup
+            </button>
+
+            <button class="filter" data-filter="Cheveux">
+                Cheveux
+            </button>
+
+            <button class="filter" data-filter="Nails">
+                Nails
+            </button>
+
+            <button class="filter" data-filter="Accessoires">
+                Accessoires
+            </button>
+
+            <button class="filter" data-filter="Lunettes">
+                Lunettes
+            </button>
+
+        </div>
+
+        <button class="sort-btn" id="sortBtn">
+            Trier <span>↕</span>
+        </button>
+
+    </div>
+
+
+    <div class="products-grid" id="productsGrid"></div>
+
+
+    <div class="products-empty" id="productsEmpty">
+
+        <div>♡</div>
+
+        <h3>Aucun produit trouvé</h3>
+
+        <p>Essaie une autre recherche.</p>
+
+    </div>
+
+
+    <div class="products-more">
+
+        <button class="btn btn-outline" id="loadMore">
+            Voir plus de produits
+            <span>↓</span>
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROMO ================= -->
+
+<section class="promo-section">
+
+    <div class="promo-decoration promo-d1">✦</div>
+    <div class="promo-decoration promo-d2">♡</div>
+
+    <div class="promo-inner reveal">
+
+        <div class="promo-copy">
+
+            <span class="section-kicker">LIMITED OFFER</span>
+
+            <h2>
+                Ton glow,
+                <em>à petit prix.</em>
+            </h2>
+
+            <p>
+                Profite de notre sélection beauté avant la fin
+                de l'offre.
+            </p>
+
+            <div class="countdown" id="countdown">
+
+                <div>
+                    <strong id="days">02</strong>
+                    <span>jours</span>
+                </div>
+
+                <b>:</b>
+
+                <div>
+                    <strong id="hours">14</strong>
+                    <span>heures</span>
+                </div>
+
+                <b>:</b>
+
+                <div>
+                    <strong id="minutes">36</strong>
+                    <span>min</span>
+                </div>
+
+                <b>:</b>
+
+                <div>
+                    <strong id="seconds">25</strong>
+                    <span>sec</span>
+                </div>
+
+            </div>
+
+            <a href="#products" class="btn btn-dark">
+                Profiter de l'offre
+                <span>→</span>
+            </a>
+
+        </div>
+
+
+        <div class="promo-image">
+
+            <div class="promo-circle"></div>
+
+            <img
+                src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=900&q=85"
+                alt="Beauty products"
+            >
+
+            <div class="discount-bubble">
+                <strong>-20%</strong>
+                <span>SELECTED<br>ITEMS</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="section about-section" id="about">
+
+    <div class="about-inner">
+
+        <div class="about-title reveal">
+
+            <span class="section-kicker">OUR STORY</span>
+
+            <h2>
+                La beauté
+                <em>à ta façon.</em>
+            </h2>
+
+        </div>
+
+
+        <div class="about-text reveal">
+
+            <p class="about-big">
+                Éléa est née d'une idée simple :
+                rendre les petits plaisirs beauté
+                plus accessibles.
+            </p>
+
+            <p>
+                Nous sélectionnons des produits que nous aimerions
+                nous-mêmes utiliser : beaux, pratiques et pensés
+                pour accompagner ton quotidien.
+            </p>
+
+            <a href="#contact" class="text-link">
+                En savoir plus <span>↗</span>
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="stats-grid reveal">
+
+        <div class="stat">
+            <strong data-counter="500">0</strong>
+            <span>Clientes</span>
+        </div>
+
+        <div class="stat">
+            <strong data-counter="120">0</strong>
+            <span>Produits</span>
+        </div>
+
+        <div class="stat">
+            <strong data-counter="4">0</strong>
+            <span>Catégories</span>
+        </div>
+
+        <div class="stat">
+            <strong data-counter="99">0</strong>
+            <span>% Satisfaction</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= WHY US ================= -->
+
+<section class="why-section">
+
+    <div class="section-heading centered reveal">
+
+        <span class="section-kicker">WHY ÉLÉA</span>
+
+        <h2>
+            Pourquoi nous
+            <em>adorer.</em>
+        </h2>
+
+    </div>
+
+
+    <div class="why-grid">
+
+        <div class="why-card reveal">
+
+            <span class="why-number">01</span>
+
+            <div class="why-icon">✦</div>
+
+            <h3>Sélection soignée</h3>
+
+            <p>
+                Nous choisissons chaque produit avec attention
+                pour te proposer une collection tendance.
+            </p>
+
+        </div>
+
+
+        <div class="why-card reveal">
+
+            <span class="why-number">02</span>
+
+            <div class="why-icon">♡</div>
+
+            <h3>Simple & rapide</h3>
+
+            <p>
+                Pas de parcours compliqué. Tu choisis,
+                tu nous écris sur WhatsApp et c'est tout.
+            </p>
+
+        </div>
+
+
+        <div class="why-card reveal">
+
+            <span class="why-number">03</span>
+
+            <div class="why-icon">✧</div>
+
+            <h3>Style & tendance</h3>
+
+            <p>
+                Des nouveautés et des essentiels pour
+                compléter ton beauty routine.
+            </p>
+
+        </div>
+
+
+        <div class="why-card reveal">
+
+            <span class="why-number">04</span>
+
+            <div class="why-icon">∞</div>
+
+            <h3>À ton écoute</h3>
+
+            <p>
+                Une question sur un produit ? Notre équipe
+                est disponible directement sur WhatsApp.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= NEWSLETTER ================= -->
+
+<section class="newsletter-section" id="contact">
+
+    <div class="newsletter-inner reveal">
+
+        <div>
+
+            <span class="section-kicker">STAY IN THE LOOP</span>
+
+            <h2>
+                Rejoins notre
+                <em>beauty club.</em>
+            </h2>
+
+            <p>
+                Nouveautés, offres et inspirations directement
+                dans ta boîte mail.
+            </p>
+
+        </div>
+
+
+        <form class="newsletter-form" id="newsletterForm">
+
+            <input
+                type="email"
+                placeholder="Ton adresse email"
+                required
+            >
+
+            <button type="submit">
+                S'inscrire
+                <span>→</span>
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="footer-top">
+
+        <div class="footer-brand">
+
+            <a href="#" class="logo footer-logo">
+                <span class="logo-main">ÉLÉA</span>
+                <span class="logo-sub">BEAUTY & LIFESTYLE</span>
+            </a>
+
+            <p>
+                Ta beauté. Ton style.
+                Ta façon de briller.
+            </p>
+
+            <div class="socials">
+
+                <a href="#" aria-label="Instagram">ig</a>
+                <a href="#" aria-label="TikTok">tk</a>
+                <a href="#" aria-label="Facebook">fb</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>BOUTIQUE</h4>
+
+            <a href="#products">Nouveautés</a>
+            <a href="#products">Best Sellers</a>
+            <a href="#products">Promotions</a>
+            <a href="#products">Tous les produits</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>AIDE</h4>
+
+            <a href="#">Livraison</a>
+            <a href="#">Commande</a>
+            <a href="#">FAQ</a>
+            <a href="#">Contact</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>CONTACT</h4>
+
+            <a href="https://wa.me/212600000000" target="_blank">
+                WhatsApp
+            </a>
+
+            <a href="mailto:contact@eleabeauty.ma">
+                Email
+            </a>
+
+            <span>Maroc 🇲🇦</span>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <span>© 2026 ÉLÉA BEAUTY</span>
+
+        <span>Made with ♡</span>
+
+    </div>
+
+</footer>
+
+
+<!-- ================= CART ================= -->
+
+<div class="drawer-overlay" id="drawerOverlay"></div>
+
+<aside class="cart-drawer" id="cartDrawer">
+
+    <div class="drawer-header">
+
+        <div>
+            <span class="section-kicker">YOUR BAG</span>
+            <h3>Ton panier</h3>
+        </div>
+
+        <button class="drawer-close" id="closeCart">
+            ×
+        </button>
+
+    </div>
+
+
+    <div class="cart-items" id="cartItems">
+
+        <div class="empty-cart">
+
+            <div class="empty-cart-icon">♡</div>
+
+            <h4>Ton panier est vide</h4>
+
+            <p>
+                Ajoute quelques produits pour commencer.
+            </p>
+
+            <a href="#products" class="btn btn-outline close-cart-link">
+                Découvrir
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="cart-footer">
+
+        <div class="cart-total">
+
+            <span>Total</span>
+
+            <strong id="cartTotal">
+                0 DH
+            </strong>
+
+        </div>
+
+        <p class="cart-note">
+            Aucun paiement en ligne.
+            La commande se fait directement via WhatsApp.
+        </p>
+
+        <button class="whatsapp-order" id="whatsappOrder">
+
+            <span class="whatsapp-icon">◉</span>
+
+            Commander sur WhatsApp
+
+            <span>→</span>
+
+        </button>
+
+    </div>
+
+</aside>
+
+
+<!-- ================= QUICK VIEW ================= -->
+
+<div class="modal-overlay" id="productModal">
+
+    <div class="product-modal">
+
+        <button class="modal-close" id="closeModal">
+            ×
+        </button>
+
+
+        <div class="modal-image">
+
+            <img id="modalImage" src="" alt="">
+
+            <span id="modalBadge" class="modal-badge"></span>
+
+        </div>
+
+
+        <div class="modal-content">
+
+            <span class="modal-category" id="modalCategory"></span>
+
+            <h2 id="modalTitle"></h2>
+
+            <div class="modal-rating">
+                ★★★★★
+                <span>(24 avis)</span>
+            </div>
+
+            <p id="modalDescription"></p>
+
+            <div class="modal-price">
+
+                <strong id="modalPrice"></strong>
+
+                <del id="modalOldPrice"></del>
+
+            </div>
+
+
+            <div class="quantity-row">
+
+                <span>Quantité</span>
+
+                <div class="quantity">
+
+                    <button id="modalMinus">−</button>
+
+                    <strong id="modalQuantity">1</strong>
+
+                    <button id="modalPlus">+</button>
+
+                </div>
+
+            </div>
+
+
+            <button class="modal-add" id="modalAdd">
+
+                Ajouter au panier
+
+                <span>→</span>
+
+            </button>
+
+
+            <button class="modal-whatsapp" id="modalWhatsApp">
+
+                Commander directement sur WhatsApp
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- ================= TOAST ================= -->
+
+<div class="toast" id="toast">
+
+    <div class="toast-icon">✓</div>
+
+    <div>
+        <strong id="toastTitle">Ajouté au panier</strong>
+        <span id="toastText">Produit ajouté.</span>
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
